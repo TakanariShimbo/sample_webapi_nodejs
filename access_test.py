@@ -16,6 +16,6 @@ def access_test(webapi_url):
    
     
 if __name__ == '__main__':
-    webapi_url = "https://obvious-far-cashew.glitch.me/api"
-    # webapi_url = "http://localhost:3000/api"
+    # webapi_url = "https://project-name.glitch.me/api"
+    webapi_url = "http://localhost:3000/api"
     access_test(webapi_url)
