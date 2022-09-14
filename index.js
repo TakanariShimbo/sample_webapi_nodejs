@@ -4,16 +4,16 @@ const express = require('express');
 
 // **** funcs ****
 async function post_action(req, res) {
-    // get data from request
-    let value1 = req.body.value1;
-    let value2 = req.body.value2;
+    // get data from req
+    let value1 = await req.body.value1;
+    let value2 = await req.body.value2;
     
-    // return result as json
-    const data = await {
+    // add data to res
+    let data_send = await {
         'value1': value1,
         'value2': value2    
     };
-    return await res.json(data);
+    await res.json(data_send);
 };
 
 
