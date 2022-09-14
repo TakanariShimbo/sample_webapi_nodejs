@@ -1,5 +1,5 @@
 # About
-This is sample webapi written in nodejs.
+This is sample webapi written in nodejs (express).
 
 # Glitch: https://glitch.com/
 1. Import from GitHub  
