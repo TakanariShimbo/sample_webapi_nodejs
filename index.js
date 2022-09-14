@@ -34,5 +34,5 @@ app.post('/api', post_action);
 
 // build server at rocess.env.PORT or 3000
 app.listen(app.get('port'), function() {
-    console.log("Node app is running at localhost:" + app.get('port'))
+    console.log('Node app is running at localhost:' + app.get('port'))
 });
