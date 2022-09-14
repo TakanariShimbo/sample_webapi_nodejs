@@ -1,5 +1,5 @@
 // **** import ****
-const express = require('express');
+let express = require('express');
 
 
 // **** funcs ****
@@ -19,7 +19,7 @@ async function post_action(req, res) {
 
 // **** main ****
 // create express instanse as app
-const app = express();
+let app = express();
 
 // set port
 app.set('port',(process.env.PORT || 3000));
