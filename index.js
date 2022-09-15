@@ -30,7 +30,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // define directory of website
 app.get('/', (req, res)=>{ res.send('Hello, World'); });
-app.post('/api', post_action);
+app.post('/api/', post_action);
 
 // build server at rocess.env.PORT or 3000
 app.listen(app.get('port'), function() {
