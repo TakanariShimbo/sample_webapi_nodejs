@@ -31,3 +31,11 @@ This is sample webapi written in nodejs (express).
     touch index.js
     ```
     copy&paste this rep's index.js
+
+5. edit package.json
+    edit scripts
+    ```
+    "scripts": {
+        "start": "node index.js"
+    }
+    ```
